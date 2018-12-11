@@ -1,6 +1,6 @@
 . "\\tervis.prv\applications\GitRepository\TervisPassPhrase\Definition.ps1"
 
-#The code below was originall written in cyborg style, not yet refactored to be a robot
+#The code below was originally written in cyborg style, not yet refactored to be a robot
 function Add-TervisPassPhraseUserToLongPWPolicyGroup {
     $DeploymentGroups.UPNs | 
     % {
